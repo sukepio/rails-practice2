@@ -22,5 +22,5 @@ html
           li.nav-item= link_to 'ログイン', login_path, class: 'nav-link'
     .container
       - if flash.notice.present?
-          .alert.alert-success= flash.notice
+          .alert.alert-success.text-center= flash.notice
       = yield
